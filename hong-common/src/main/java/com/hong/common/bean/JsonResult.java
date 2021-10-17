@@ -30,7 +30,7 @@ public class JsonResult<T> implements Serializable {
 	 */
 	private String message;
 
-	public static  JsonResult<?> error(ExceptionEnum exception) {
+	public static JsonResult<?> error(ExceptionEnum exception) {
 		JsonResult<?> result = new JsonResult<>();
 		result.setCode(exception.getCode());
 		result.setData(null);
@@ -39,6 +39,6 @@ public class JsonResult<T> implements Serializable {
 	}
 
 	public static <T> JsonResult<T> success(T data) {
-		return new JsonResult<>(data,"200","成功");
+		return new JsonResult<>(data, "200", "成功");
 	}
 }

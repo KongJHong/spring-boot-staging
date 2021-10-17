@@ -27,8 +27,8 @@ public class JsonConfig {
 				SerializerFeature.WriteMapNullValue,
 				// 将String类型的null转成""
 				SerializerFeature.WriteNullStringAsEmpty,
-				// 将Number类型的null转成0
-				SerializerFeature.WriteNullNumberAsZero,
+//				// 将Number类型的null转成0
+//				SerializerFeature.WriteNullNumberAsZero,
 				// 将List类型的null转成[]
 				SerializerFeature.WriteNullListAsEmpty,
 				// 将Boolean类型的null转成false

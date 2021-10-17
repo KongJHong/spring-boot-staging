@@ -23,6 +23,7 @@ dependency-reduced-pom.xml
 .settings/
 
 log/
+target/
 
 # IntelliJ IDEA Files
 
@@ -30,3 +31,5 @@ log/
 *.ipr
 *.iws
 *.idea
+
+.hong-test/
